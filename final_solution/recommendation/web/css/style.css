@@ -1,0 +1,49 @@
+html {
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+  background: #f1f4f7;
+  padding-top: 60px;
+  font-size: 14px;
+  color: #444444;
+}
+
+.tag-margin {
+  margin-left: 19px;
+}
+
+.label-style {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.common-style-input {
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+.set-width {
+  width: 100%;
+}
+
+.arvind {
+    background-color: white;
+    max-width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 22px 0px 22px 0px;
+}
+
+#error {
+    color: red;
+    visibility: hidden;
+}
