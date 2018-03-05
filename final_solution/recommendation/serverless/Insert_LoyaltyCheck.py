@@ -7,8 +7,8 @@ def insert_loyaltycheck(phone):
            'password': 'enternow123',
            'db': 'f1'}
     try:
-        connection = mysql.connector.connect(host=snauth_cnx_str['host'], user=snauth_cnx_str['username'],
-                                             password=snauth_cnx_str['password'], database=snauth_cnx_str['db'])
+        connection = mysql.connector.connect(host=arvind_cnx_str['host'], user=arvind_cnx_str['username'],
+                                             password=arvind_cnx_str['password'], database=arvind_cnx_str['db'])
         # Update the existing only record again and again with the just entered phone no
         update_phone = "UPDATE LoyaltyCheck SET LastEnteredPhone='%s' WHERE Trans_ID=1" % (phone)
 
