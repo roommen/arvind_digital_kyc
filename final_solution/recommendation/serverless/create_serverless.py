@@ -1,7 +1,7 @@
 import os
 
 
-files = ["Insert_LoyaltyCheck.py"]
+files = ["Insert_LoyaltyCheck.py", "Show_Recommendations.py"]
 try:
     # remove mysql unzipped folder if exist
     os.system("rm -rf mysql")
